@@ -162,12 +162,6 @@ Empfohlene Konfiguration:
 | Pad 7 | Control Change |      70 |         127 |             0 |
 | Pad 8 | Control Change |      71 |         127 |             0 |
 
-## Sicherheit
-
-Speichere keine echten Passwörter in einem öffentlichen Repository.
-
-Die Datei `config.json` sollte nicht hochgeladen werden.
-
 Empfohlene `.gitignore`:
 
 ```gitignore
