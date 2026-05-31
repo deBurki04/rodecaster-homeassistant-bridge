@@ -1,0 +1,7 @@
+mido
+python-rtmidi
+paho-mqtt
+pystray
+pillow
+winotify
+pyinstaller
