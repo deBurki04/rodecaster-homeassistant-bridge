@@ -62,13 +62,13 @@ py -3.12 -m pip install mido python-rtmidi paho-mqtt pystray pillow winotify pyi
 ## Starten der App
 
 ```powershell
-py -3.12 rodecaster_mqtt_ui_8pads_maximized_github.py
+py -3.12 main.py
 ```
 
 ## EXE bauen
 
 ```powershell
-py -3.12 -m PyInstaller --onefile --windowed --hidden-import=rtmidi --hidden-import=mido.backends.rtmidi --hidden-import=pystray._win32 --hidden-import=PIL._tkinter_finder --hidden-import=winotify rodecaster_mqtt_ui_8pads_maximized_github.py
+py -3.12 -m PyInstaller --onefile --windowed --hidden-import=rtmidi --hidden-import=mido.backends.rtmidi --hidden-import=pystray._win32 --hidden-import=PIL._tkinter_finder --hidden-import=winotify main.py
 ```
 
 Die fertige `.exe` befindet sich danach im Ordner:
